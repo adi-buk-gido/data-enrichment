@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.example.shield.model.conversationDto.RoomConversation;
+import com.example.shield.model.conversation.RoomConversation;
 
 import lombok.extern.slf4j.Slf4j;
 

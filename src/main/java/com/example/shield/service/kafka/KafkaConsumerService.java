@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
-import com.example.shield.model.conversationDto.RoomConversation;
+import com.example.shield.model.conversation.RoomConversation;
 import com.example.shield.service.data.enrich.DataEnrichmentManager;
 
 @Service

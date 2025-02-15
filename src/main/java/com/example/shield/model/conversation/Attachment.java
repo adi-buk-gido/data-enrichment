@@ -1,9 +1,10 @@
-package com.example.shield.model.conversationDto;
+package com.example.shield.model.conversation;
+
 
 import lombok.Data;
 
 @Data
-public class AttachmentDto {
+public class Attachment {
 
     private User user;
 

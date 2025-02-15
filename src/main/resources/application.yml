@@ -22,6 +22,7 @@ logging:
 spring:
   kafka:
     bootstrap-servers: localhost:9092
+    topic: ${SPRING_KAFKA_TOPIC_ENRICHMENT}
     consumer:
       group-id: enrichment-group
       auto-offset-reset: earliest

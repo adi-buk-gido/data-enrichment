@@ -1,4 +1,4 @@
-package com.example.shield.model.conversationDto;
+package com.example.shield.model.conversation;
 
 import lombok.Data;
 import java.util.List;
@@ -18,9 +18,12 @@ public class Conversation {
 
     private List<Participant> participantsEntered;
 
+
     private List<Participant> participantsLeft;
+
 
     private List<Message> messages;
 
-    private List<AttachmentDto> attachments;
+    private List<Attachment> attachments;
 }
+

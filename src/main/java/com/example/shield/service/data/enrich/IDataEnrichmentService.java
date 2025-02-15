@@ -1,7 +1,7 @@
 package com.example.shield.service.data.enrich;
 
 
-import com.example.shield.model.conversationDto.RoomConversation;
+import com.example.shield.model.conversation.RoomConversation;
 
 public interface IDataEnrichmentService  {
 
