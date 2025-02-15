@@ -1,4 +1,4 @@
-package com.example.shield.model.conversation;
+package com.example.shield.model.conversationDto;
 
 import lombok.Data;
 

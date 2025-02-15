@@ -2,8 +2,9 @@ package com.example.shield.consts;
 
 public class RestConsts {
 
-    public static final class Input {
-        public static final String INPUT =  "/input/recieve";
+    public static final class Enrichment {
+        public static final String ROOT = "/data";
+        public static final String ENRICH =  ROOT + "/enrich";
     }
 
     public static final class CommonHeaders {
